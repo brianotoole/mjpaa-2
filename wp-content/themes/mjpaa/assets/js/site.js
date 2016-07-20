@@ -55,8 +55,9 @@ $(document).ready(function(){
  * .top-bar nav scroll 
  */
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if ( scroll >= 542 && $(window).width() >= 899) { //not on mobile
+    var scroll = $(window).scrollTop(),
+        headerHeight = $('.site-header').outerHeight(); 
+    if ( scroll >= headerHeight && $(window).width() >= 899) { //not on mobile
     	$('.top-bar').slideDown(300);
         //$('.top-bar').addClass("push-up");
         $('.top-bar, .site-header').addClass("fixed");

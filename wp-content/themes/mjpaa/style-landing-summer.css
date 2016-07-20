@@ -3043,7 +3043,7 @@ body.home .site-header {
   background: transparent;
   border-bottom: none; }
 body.home .site-header.fixed {
-  background: rgba(93, 1, 1, 0.85);
+  background: #5D0101;
   border-bottom: 2px solid rgba(234, 234, 234, 0.05); }
 
 .site-header {
@@ -3052,17 +3052,11 @@ body.home .site-header.fixed {
   width: 100%;
   padding: 0;
   height: 237px;
-  background: rgba(31, 31, 31, 0.8);
+  background: rgba(31, 31, 31, 0.6);
   border-bottom: 2px solid rgba(234, 234, 234, 0.05);
   z-index: 9;
   transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  transition: transform 0.3s;
-  -webkit-transition: transform 0.3s;
-  -moz-transition: transform 0.3s;
-  -ms-transition: transform 0.3s; }
+  transition: transform 0.2s ease-in-out; }
   .site-header .intro {
     padding: 0;
     font-size: inherit; }
@@ -3072,44 +3066,29 @@ body.home .site-header.fixed {
 
 .site-logo {
   transform: scale(1) translateY(20px);
-  -webkit-transform: scale(1) translateY(20px);
-  -moz-transform: scale(1) translateY(20px);
-  -ms-transform: scale(1) translateY(20px);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transition: transform 0.3s;
-  -moz-transition: transform 0.3s;
-  -ms-transition: transform 0.3s; }
+  transition: transform 0.2s ease-in-out; }
 
 .top-bar.fixed {
   position: fixed;
   height: 45px;
   top: 0;
-  background: rgba(31, 31, 31, 0.95);
+  background: #1F1F1F;
   z-index: 2001; }
   .top-bar.fixed .sb-icon-search {
-    background: rgba(31, 31, 31, 0.95); }
+    background: #1F1F1F; }
 
 .site-header.fixed {
   position: fixed;
   margin-top: 20px;
   height: 85px;
   padding: 2px;
-  background: rgba(93, 1, 1, 0.95);
+  background: #5D0101;
   border-top: 2px solid rgba(31, 31, 31, 0.05);
   z-index: 2000;
   transform: translateY(-20px);
-  -webkit-transform: translateY(-20px);
-  -moz-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  transition: transform 0.3s;
-  -webkit-transition: transform 0.3s;
-  -moz-transition: transform 0.3s;
-  -ms-transition: transform 0.3s; }
+  transition: transform 0.2s ease-in-out; }
 
 .site-header.fixed .site-logo {
-  -webkit-transform: scale(0.5) translateY(-75px);
-  -ms-transform: scale(0.5) translateY(-75px);
   transform: scale(0.5) translateY(-75px); }
 
 .site-header.fixed .main-navigation ul {
@@ -3253,7 +3232,7 @@ Menus
       display: block;
       text-decoration: none;
       color: white;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.2em;
       transition: all 0.4s ease-in-out;
       -moz-transition: all 0.4s ease-in-out;
@@ -3656,6 +3635,8 @@ Homepage
     margin: 0; }
   .about .program-titles {
     margin-top: 30px; }
+  .about .title {
+    font-weight: 600; }
   .about a:hover, .about a:focus {
     text-decoration: none; }
   .about p {
@@ -3707,7 +3688,8 @@ Homepage
       border-bottom: 2px solid #eaeaea; }
     .about .latest-news .news-title {
       margin-bottom: 0;
-      color: #1F1F1F; }
+      color: #1F1F1F;
+      font-weight: 600; }
     .about .latest-news .descrip {
       width: 100%;
       margin: 22px 0 0;
@@ -4647,7 +4629,7 @@ Footer
     background: rgba(31, 31, 31, 0.7); }
 
 .testimonials .footer-contact {
-  background: black;
+  background: #252525;
   text-align: center;
   padding: 40px 0 20px;
   color: white; }
@@ -4664,7 +4646,7 @@ Footer
 .site-footer {
   font-weight: 400;
   background: #1F1F1F;
-  border-top: 2px solid rgba(234, 234, 234, 0.02);
+  border-top: 2px solid #1F1F1F;
   padding: 20px 0 0;
   color: white;
   text-align: center; }

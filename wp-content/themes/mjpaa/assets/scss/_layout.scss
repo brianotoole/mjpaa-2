@@ -402,7 +402,7 @@ body.home {
 	}
 	//homepage after scroll
 	.site-header.fixed {
-		background: rgba($maroon, 0.85);
+		background: $maroon;
 		border-bottom: 2px solid rgba($lightgray,0.05);	
 	}
 
@@ -414,17 +414,11 @@ body.home {
 	width: 100%;
 	padding: 0;
 	height: 237px;
-	background: rgba($black, 0.8); //overlay
+	background: rgba($black, 0.6); //overlay
 	border-bottom: 2px solid rgba($lightgray,0.05);
 	z-index: 9;
 	transform: translateY(0px);
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transition: transform 0.3s;
-	-webkit-transition: transform 0.3s;
-	-moz-transition: transform 0.3s;
-	-ms-transition: transform 0.3s;
+	transition: transform 0.2s ease-in-out;
 	
 	.intro {
 		padding: 0;
@@ -439,24 +433,17 @@ body.home {
 }
 .site-logo {
 	transform: scale(1) translateY(20px);
-	-webkit-transform: scale(1) translateY(20px);
-	-moz-transform: scale(1) translateY(20px);
-    -ms-transform: scale(1) translateY(20px);
-	-webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-	-webkit-transition: transform 0.3s;
-	-moz-transition: transform 0.3s;
-	-ms-transition: transform 0.3s;
+    transition: transform 0.2s ease-in-out;
 }
 
 .top-bar.fixed {
 	position: fixed;
 	height: 45px;
 	top: 0;
-	background: rgba($black, 0.95);
+	background: $black;
 	z-index: 2001;
 	.sb-icon-search {
-		background: rgba($black, 0.95);
+		background: $black;
 	}
 }
 .site-header.fixed {
@@ -464,21 +451,13 @@ body.home {
 	margin-top: 20px;
 	height: 85px;
 	padding: 2px;
-	background: rgba($maroon, 0.95);
+	background: $maroon;
 	border-top: 2px solid rgba($black, 0.05);
 	z-index: 2000;
 	transform: translateY(-20px);
-	-webkit-transform: translateY(-20px);
-	-moz-transform: translateY(-20px);
-	-ms-transform: translateY(-20px);
-	transition: transform 0.3s;
-	-webkit-transition: transform 0.3s;
-	-moz-transition: transform 0.3s;
-	-ms-transition: transform 0.3s;
+	transition: transform 0.2s ease-in-out;
 }
 .site-header.fixed .site-logo {
-	 -webkit-transform: scale(0.5) translateY(-75px);
-    -ms-transform: scale(0.5) translateY(-75px);
     transform: scale(0.5) translateY(-75px);
 }
 .site-header.fixed .main-navigation ul {
@@ -524,7 +503,7 @@ Menus
 			display: block;
 			text-decoration: none;
 			color: white;
-			font-weight: 500;
+			font-weight: 600;
 			font-size: 1.2em;
 			transition: all 0.4s ease-in-out;
 			-moz-transition: all 0.4s ease-in-out;
@@ -824,7 +803,10 @@ Homepage
 	
 	.program-titles {
 		margin-top: 30px;
-		
+	}
+	
+	.title {
+		font-weight: 600;
 	}
 	
 	a {
@@ -901,6 +883,7 @@ Homepage
 		.news-title {
 			margin-bottom: 0;
 			color: $black;
+			font-weight: 600;
 		}
 		
 		.descrip {
@@ -2025,7 +2008,7 @@ Footer
 
 .testimonials {
 	.footer-contact {
-		background: black;
+		background: lighten($black,2.5%);
 		text-align: center;
 	    padding: 40px 0 20px;
 	    color: white;
@@ -2047,7 +2030,7 @@ Footer
 .site-footer {
 	font-weight: 400;
 	background: $black;
-	border-top: 2px solid rgba($lightgray,0.02);
+	border-top: 2px solid $black;
 	padding: 20px 0 0;
 	color: white;
 	text-align: center;

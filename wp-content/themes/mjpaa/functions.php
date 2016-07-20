@@ -118,7 +118,7 @@ function mjpaa_scripts() {
    
 	
 	//wp_enqueue_script('jquery');
-	wp_enqueue_script( 'site-scripts', get_template_directory_uri() . '/assets/js/site.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'site-scripts', get_template_directory_uri() . '/assets/js/min/site-min.js', array(), '1.0.0', true );
 	
 	//wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
