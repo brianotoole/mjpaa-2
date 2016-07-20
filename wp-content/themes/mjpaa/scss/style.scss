@@ -1,0 +1,26 @@
+// Colors
+//brand colors
+$maroon: #5D0101; //mjpaa red
+$smoke: #fbfbfb;
+$lightgray: #eaeaea; //mostly for borders
+$gray: #555;
+$hr: #eaeaea;
+$black: #1F1F1F;
+$gold: #AE8648;
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|100,400,500,600,700');
+
+$font-heading: 'Merriweather', serif, Arial;
+$font-body: 'PT Sans', Helvetica, Arial;
+
+// Vendors
+@import "vendor/reset";
+@import "vendor/bootstrap.grid";
+@import "vendor/bootstrap.modal";
+@import "vendor/font-awesome";
+
+// Layout
+@import "wp";
+@import "layout";
+@import "responsive";
