@@ -24,6 +24,9 @@ p {
 /*--------------------------------------------------------------
 Elements
 --------------------------------------------------------------*/
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body,
 button,
 input,
@@ -38,10 +41,6 @@ textarea {
 textarea { height: 200px;}
 a {
 	color: $black;
-	-webkit-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 
@@ -82,17 +81,10 @@ input[type="submit"] {
 	font-weight: inherit;
 	margin: 20px 0;
 	padding: 12px 25px;
-	-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
 	text-shadow: none;
 	text-transform: uppercase;
 	float: right;
@@ -119,10 +111,7 @@ input[type="radio"] {
 	margin-right: 10px;
 }
 input[type="search"] {
-	-webkit-appearance: textfield; 
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing:    content-box;
-	box-sizing:         content-box;
+	box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-decoration { 
 	-webkit-appearance: none;
@@ -198,17 +187,10 @@ textarea {
     font-style: normal;
     color: white;
     text-align: center;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
 }
 /*primary, blue bg, white text, no border*/
 .button.primary,
@@ -521,7 +503,7 @@ Menus
 	display: block;
 	float: left;
 	width: 100%;
-	font-family: $font-body;
+	font-family: $font-heading;
 	
 	ul {
 		list-style: none;
@@ -542,7 +524,7 @@ Menus
 			display: block;
 			text-decoration: none;
 			color: white;
-			font-weight: 300;
+			font-weight: 500;
 			font-size: 1.2em;
 			transition: all 0.4s ease-in-out;
 			-moz-transition: all 0.4s ease-in-out;
@@ -919,7 +901,6 @@ Homepage
 		.news-title {
 			margin-bottom: 0;
 			color: $black;
-			font-weight: 400;
 		}
 		
 		.descrip {
