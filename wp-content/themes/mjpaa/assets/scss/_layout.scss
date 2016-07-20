@@ -370,7 +370,7 @@ Top-Bar, Header, & Navigation
 				vertical-align: middle;
 				font-family: $font-body;
 				font-size: 0.9em;
-				font-weight: 300;
+				font-weight: 400;
 				color: $smoke;
 				&:last-child {
 					padding-right: 0;
@@ -482,7 +482,7 @@ Menus
 	display: block;
 	float: left;
 	width: 100%;
-	font-family: $font-heading;
+	font-family: $font-body;
 	
 	ul {
 		list-style: none;
@@ -506,9 +506,6 @@ Menus
 			font-weight: 600;
 			font-size: 1.2em;
 			transition: all 0.4s ease-in-out;
-			-moz-transition: all 0.4s ease-in-out;
-			-webkit-transition: all 0.4s ease-in-out;
-			-ms-transition: all 0.4s ease-in-out;
 			&:hover,&:focus {
 				color: $maroon;
 			}
@@ -536,7 +533,7 @@ Menus
 	a {
 		width: 200px;
 		color: #8c9398;
-		font-weight: 600;
+		font-weight: 500;
 		padding: 8px 12px;
 		font-size: 13px;
 		text-align: center;
@@ -806,7 +803,7 @@ Homepage
 	}
 	
 	.title {
-		font-weight: 600;
+		font-weight: 500;
 	}
 	
 	a {
@@ -883,7 +880,7 @@ Homepage
 		.news-title {
 			margin-bottom: 0;
 			color: $black;
-			font-weight: 600;
+			font-weight: 500;
 		}
 		
 		.descrip {
@@ -936,6 +933,11 @@ Homepage
 		}
 	}
 	
+	.team {
+		background: white;
+		border-top: 1px solid $hr;
+	}
+	
 	.mission {
 		p {
 			padding-right: 20px;
@@ -943,12 +945,12 @@ Homepage
 		ul {
 			margin: 0;
 			list-style: none;
-			font-size: 0.9em;
+			font-size: 0.834em;
 			li {
 				&:before {
 					content: '\f005';
 					font-family: fontAwesome;
-					color: $maroon;
+					color: rgba($gray,0.4);
 					font-size: 0.7em;
 					padding-right: 5px;
 				}
@@ -1362,6 +1364,10 @@ About page template
 
 	}
 	
+	.latest-news {
+		min-height: 800px;
+	}
+	
 	.program-titles {
 		h5{
 			padding-top: 25px;
@@ -1671,7 +1677,7 @@ img.alumni {
 	}
 	.date {
 	
-		&:before {
+		/*&:before {
 		 	content: '\f073';
 			font-family: fontAwesome;
 			font-size: 0.75em;
@@ -1680,10 +1686,10 @@ img.alumni {
 			padding-right: 5px;
 			position: relative;
 			color: rgba($gold,0.75);
-		}
+		}*/
 	}
 	.cost {
-		 &:before {
+		 /*&:before {
 		 	content: '\f155';
 			font-family: fontAwesome;
 			font-size: 0.75em;
@@ -1692,10 +1698,10 @@ img.alumni {
 			padding-right: 5px;
 			position: relative;
 			color: rgba($gold,0.75);
-		 }
+		 }*/
 	}
 	.program {
-		 &:before {
+		 /*&:before {
 		 	content: '\f084';
 			font-family: fontAwesome;
 			font-size: 0.75em;
@@ -1704,7 +1710,7 @@ img.alumni {
 			padding-right: 5px;
 			position: relative;
 			color: rgba($gold,0.75);
-		 }
+		 }*/
 	}
 	.grade {
 		 &:before {
@@ -1719,7 +1725,7 @@ img.alumni {
 		 }
 	}
 	.session {
-		 &:before {
+		 /*&:before {
 		 	content: '\f017';
 			font-family: fontAwesome;
 			font-size: 0.75em;
@@ -1728,10 +1734,10 @@ img.alumni {
 			padding-right: 5px;
 			position: relative;
 			color: rgba($gold,0.75);
-		 }
+		 }*/
 	}
 	.links {
-		 &:before {
+		 /*&:before {
 		 	content: '\f0c1';
 			font-family: fontAwesome;
 			font-size: 0.75em;
@@ -1740,7 +1746,7 @@ img.alumni {
 			padding-right: 5px;
 			position: relative;
 			color: rgba($gold,0.75);
-		 }
+		 }*/
 	}
 }
 /*--------------------------------------------------------------

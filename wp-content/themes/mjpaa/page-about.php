@@ -6,23 +6,29 @@ get_header(); ?>
             
 <?php while ( have_posts() ) : the_post(); ?>
 
-<div class="page-about about">
+
+<div class="page-about sidebar-right">
 <section class="history">
 	<div class="intro row" id="contain">
-	
-	
+		<div class="col-sm-12 no-padding">
+			  <h1 class="section-title">Our Mission</h1>
+			  <div class="interior-callout">
+				   <p>
+To educate, empower and inspire students of all ages and abilities in a safe, stimulating environment. To create a safe haven where students can explore their creativity, develop self-confidence, overcome fears and explore various pathways to express their inner selves. To provide our students the vehicle to find their inner voice and learn life lessons that will help mold them into successful young adults. To share our passion for the arts and make a difference in this world one child at a time!</p>
+			  </div>
+		</div><!--/.col-->
+	</div><!--/.intro-->
+</section><!--/.history-->
+
+<div class="page-about about">
+<section class="about">
+	<div class="intro row" id="contain">
 
 		<div class="pad-fix">
-		<div class="col-sm-4 latest-news sidebar-higher pull-right">
+		<div class="col-sm-4 latest-news pull-right">
 		  <?php get_sidebar(); ?>
 		</div><!--/.col-->
 		<div class="col-sm-8 no-padding">
-			<h2 class="section-title">Our Mission</h2> 
-			<div class="mission" id="mission">
-			  <p>
-				  To educate, empower and inspire students of all ages and abilities in a safe, stimulating environment. To create a safe haven where students can explore their creativity, develop self-confidence, overcome fears and explore various pathways to express their inner selves. To provide our students the vehicle to find their inner voice and learn life lessons that will help mold them into successful young adults. To share our passion for the arts and make a difference in this world one child at a time!
-			  </p>
-			</div><hr /><!--/.mission-->
 			<div class="mission" id="vision">
 			  <h2 class="section-title">Our Vision</h2> 
 			  <ul>
@@ -200,7 +206,7 @@ get_header(); ?>
 <?php endwhile; // end of the loop. ?>
 <?php get_footer(); ?>
 
-<script>
+<!--<script>
 $(function() {
     var $sidebar   = $("#secondary"),
     	$sidebarHeight	= 825,
@@ -224,4 +230,4 @@ $window.scroll(function() {
 });
 
 });
-</script>
+</script>-->

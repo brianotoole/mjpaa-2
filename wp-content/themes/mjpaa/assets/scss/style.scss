@@ -9,10 +9,10 @@ $black: #212121;
 $gold: #AE8648;
 
 // Typography
-@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|100,300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|100,300,400,500,600,700');
 
 $font-heading: 'Merriweather', serif, Arial;
-$font-body: 'Lato', Helvetica, Arial;
+$font-body: 'PT+Sans', Helvetica, Arial;
 
 // Vendors
 @import "vendor/reset";

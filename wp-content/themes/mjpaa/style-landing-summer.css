@@ -3025,7 +3025,7 @@ Top-Bar, Header, & Navigation
         vertical-align: middle;
         font-family: "PT Sans", Helvetica, Arial;
         font-size: 0.9em;
-        font-weight: 300;
+        font-weight: 400;
         color: #fbfbfb; }
         .top-bar .links ul li:last-child, .top-bar .links ul li a:last-child, .top-bar .links ul li a:visited:last-child {
           padding-right: 0; }
@@ -3217,7 +3217,7 @@ Menus
   display: block;
   float: left;
   width: 100%;
-  font-family: "Titillium Web", serif, Arial; }
+  font-family: "PT Sans", Helvetica, Arial; }
   .main-navigation ul {
     list-style: none;
     margin-top: 70px;
@@ -3234,10 +3234,7 @@ Menus
       color: white;
       font-weight: 600;
       font-size: 1.2em;
-      transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -webkit-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out; }
+      transition: all 0.4s ease-in-out; }
       .main-navigation li a:hover, .main-navigation li a:focus {
         color: #5D0101; }
       .main-navigation li a:visted {
@@ -3257,7 +3254,7 @@ Menus
   .main-navigation ul ul a {
     width: 200px;
     color: #8c9398;
-    font-weight: 600;
+    font-weight: 500;
     padding: 8px 12px;
     font-size: 13px;
     text-align: center;
@@ -3636,7 +3633,7 @@ Homepage
   .about .program-titles {
     margin-top: 30px; }
   .about .title {
-    font-weight: 600; }
+    font-weight: 500; }
   .about a:hover, .about a:focus {
     text-decoration: none; }
   .about p {
@@ -3689,7 +3686,7 @@ Homepage
     .about .latest-news .news-title {
       margin-bottom: 0;
       color: #1F1F1F;
-      font-weight: 600; }
+      font-weight: 500; }
     .about .latest-news .descrip {
       width: 100%;
       margin: 22px 0 0;
@@ -3730,16 +3727,19 @@ Homepage
       margin: 0;
       padding-top: 20px;
       padding-bottom: 0; }
+  .about .team {
+    background: white;
+    border-top: 1px solid #eaeaea; }
   .about .mission p {
     padding-right: 20px; }
   .about .mission ul {
     margin: 0;
     list-style: none;
-    font-size: 0.9em; }
+    font-size: 0.834em; }
     .about .mission ul li:before {
       content: '\f005';
       font-family: fontAwesome;
-      color: #5D0101;
+      color: rgba(85, 85, 85, 0.4);
       font-size: 0.7em;
       padding-right: 5px; }
   .about #vision {
@@ -4056,6 +4056,8 @@ About page template
   font-size: 2em; }
 .page-about .col-sm-2:nth-child(6n+1) {
   clear: left; }
+.page-about .latest-news {
+  min-height: 800px; }
 .page-about .program-titles h5 {
   padding-top: 25px; }
 .page-about .program-titles p, .page-about .program-titles a {
@@ -4281,33 +4283,39 @@ img.alumni {
 .class-single span {
   font-weight: 400;
   font-size: 0.9em; }
-.class-single .date:before {
-  content: '\f073';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
-.class-single .cost:before {
-  content: '\f155';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
-.class-single .program:before {
-  content: '\f084';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
+.class-single .date {
+  /*&:before {
+   	content: '\f073';
+  	font-family: fontAwesome;
+  	font-size: 0.75em;
+  	vertical-align: text-top;
+  	top: 1px;
+  	padding-right: 5px;
+  	position: relative;
+  	color: rgba($gold,0.75);
+  }*/ }
+.class-single .cost {
+ /*&:before {
+ 	content: '\f155';
+	font-family: fontAwesome;
+	font-size: 0.75em;
+	vertical-align: text-top;
+	top: 1px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba($gold,0.75);
+ }*/ }
+.class-single .program {
+ /*&:before {
+ 	content: '\f084';
+	font-family: fontAwesome;
+	font-size: 0.75em;
+	vertical-align: text-top;
+	top: 1px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba($gold,0.75);
+ }*/ }
 .class-single .grade:before {
   content: '\f19d';
   font-family: fontAwesome;
@@ -4317,24 +4325,28 @@ img.alumni {
   padding-right: 5px;
   position: relative;
   color: rgba(174, 134, 72, 0.75); }
-.class-single .session:before {
-  content: '\f017';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
-.class-single .links:before {
-  content: '\f0c1';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
+.class-single .session {
+ /*&:before {
+ 	content: '\f017';
+	font-family: fontAwesome;
+	font-size: 0.75em;
+	vertical-align: text-top;
+	top: 1px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba($gold,0.75);
+ }*/ }
+.class-single .links {
+ /*&:before {
+ 	content: '\f0c1';
+	font-family: fontAwesome;
+	font-size: 0.75em;
+	vertical-align: text-top;
+	top: 1px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba($gold,0.75);
+ }*/ }
 
 /*--------------------------------------------------------------
 Interior Page Template: Classes / Class Search
