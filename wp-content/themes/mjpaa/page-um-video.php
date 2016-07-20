@@ -9,11 +9,11 @@ get_header(); ?>
   		<h4>Universal Movement Performing Arts Company</h4>
   </article>-->
 </div>
-<video class="sqs-html5-video" poster="<?php bloginfo('stylesheet_directory'); ?>/img/testimonialshero.jpg" id="heroVideo" autoplay muted loop>
-  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/um.webm" type="video/webm">
-  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/um.mp4" type="video/mp4">
+<video class="sqs-html5-video" poster="<?php bloginfo('stylesheet_directory'); ?>/assets/img/testimonialshero.jpg" id="heroVideo" autoplay muted loop>
+  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/um.webm" type="video/webm">
+  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/um.mp4" type="video/mp4">
   <!--[if lt IE 9]>
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/img/testimonialshero.jpg" class="ie8-poster">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/testimonialshero.jpg" class="ie8-poster">
   <![endif]-->
 </video>
 

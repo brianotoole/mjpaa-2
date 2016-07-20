@@ -7,7 +7,7 @@ get_header(); ?>
 <div class="cover-top">
   <article>
       <?php if (is_page('dancers-closet') ) { //show logo on DC page, instead of page-title ?>
-		 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/dancerscloset-logo.png" />
+		 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/dancerscloset-logo.png" />
 	  <?php } else { ?>
 	     <h4><?php the_title(); ?></h4>
   	  <?php } ?>

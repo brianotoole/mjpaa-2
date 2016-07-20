@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.ico" type="image/ico">
+<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.ico" type="image/ico">
 <?php wp_head(); ?>
 </head>
 
@@ -38,7 +38,7 @@
     
 			<div class="site-branding">
 			    <div class="site-logo"> 
-       				<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php bloginfo('stylesheet_directory'); ?>/img/logo.png'alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="logo"></a> 
+       				<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png'alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="logo"></a> 
     			</div><!-- site-logo -->
             </div><!-- site-branding -->
             

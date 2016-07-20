@@ -73,10 +73,10 @@ get_header(); ?>
 						   <h6>- Sean McDonald, Client Specialist</h6>
 						 </div><!--/.col-->
 						 <div class="hidden-xs col-sm-6 col-sm-offset-2 faculty" style="margin-top:-30px;">
-						   <img src="<?php bloginfo('stylesheet_directory'); ?>/img/about_img.jpg" />
+						   <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/about_img.jpg" />
 						 </div>
 						 <div class="visible-xs col-sm-6 col-sm-offset-2 faculty" style="margin-top:30px;">
-						   <img src="<?php bloginfo('stylesheet_directory'); ?>/img/about_img.jpg" />
+						   <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/about_img.jpg" />
 						 </div><!--/.col-->
 					  </div><!--/.admin-->
 				
@@ -138,9 +138,9 @@ get_header(); ?>
 		<div class="col-sm-12">
 		
 		  <div class="col-sm-3">
-		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/img/maryjosfacility1.jpg" />
-		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/img/maryjosfacility3.jpg" />
-		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/img/maryjosfacility2.jpg" />
+		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/maryjosfacility1.jpg" />
+		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/maryjosfacility3.jpg" />
+		    <img class="faculty" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/maryjosfacility2.jpg" />
 		  </div><!--/.col-->
 		  <div class="col-sm-9">
 		   <p>Our 12,000 plus square foot World Class Performing Arts Academy is not only the ideal facility for instruction in the arts, but can serve as host to a variety of functions and special events including: birthday parties; business meetings; corporate seminars; and even church services. As a performing arts instructional facility, we are always ready to provide rehearsal space to outside organizations such as school dance teams or choral groups, as well as individuals and small groups of performers.</p><br />
@@ -164,12 +164,12 @@ get_header(); ?>
 		   </div>
 		   <div class="col-sm-1 video-tour">
 		   <video class="hidden-xs" width="380" height="325" style="width:380px;height:325px;" controls>
-			  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/mjpaatour.mp4" type="video/mp4">
-			  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/mjpaatour.ogg" type="video/ogg">
+			  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/mjpaatour.mp4" type="video/mp4">
+			  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/mjpaatour.ogg" type="video/ogg">
 		  </video>
 		  <video class="visible-xs" width="100%" height="425" style="width:380px;height:325px;" controls>
-			  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/mjpaatour.mp4" type="video/mp4">
-			  <source src="<?php bloginfo('stylesheet_directory'); ?>/img/video/mjpaatour.ogg" type="video/ogg">
+			  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/mjpaatour.mp4" type="video/mp4">
+			  <source src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/video/mjpaatour.ogg" type="video/ogg">
 		  </video>
 		</div>
 	  	  </div><!--/.col-->

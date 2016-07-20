@@ -7,7 +7,7 @@
 	  <div class="footer-contact">
 		<div class="grid row">
 			<div class="col-sm-12">
-				<?php get_template_part( 'part', 'testimonials' ); ?>
+				<?php get_template_part( 'parts/part', 'testimonials' ); ?>
 			</div>
 		</div><!--/.grid -->
 	  </div><!--/.footer-contact -->

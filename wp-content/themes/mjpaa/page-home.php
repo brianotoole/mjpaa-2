@@ -47,7 +47,7 @@ get_header(); ?>
 			  	<div class="col-sm-2">
 					 <div class="hidden-xs ih-item circle"><a href="<?php bloginfo('url'); ?>/classes/dance-classical-ballet-of-tampa">
 				        <div class="spinner"></div>
-						   <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/circle1.jpg" alt="Dance and Classical Ballet of Tampa, MJPAA"></div>
+						   <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/circle1.jpg" alt="Dance and Classical Ballet of Tampa, MJPAA"></div>
 				        <div class="info">
 				          <div class="info-back">
 				             <p>-View Classes-</p>
@@ -65,7 +65,7 @@ get_header(); ?>
 			  	<div class="col-sm-2">
 					 <div class="hidden-xs ih-item circle"><a href="<?php bloginfo('url'); ?>/classes/acting-theater">
 				        <div class="spinner"></div>
-						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/circle2.jpg" alt="Acting and Theater Tampa, MJPAA"></div>
+						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/circle2.jpg" alt="Acting and Theater Tampa, MJPAA"></div>
 				        <div class="info">
 				          <div class="info-back">
 				             <p>-View Classes-</p>
@@ -83,7 +83,7 @@ get_header(); ?>
 			  	<div class="col-sm-2">
 					 <div class="hidden-xs ih-item circle"><a href="<?php bloginfo('url'); ?>/classes/music-instruments-voice">
 				        <div class="spinner"></div>
-						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/circle3.jpg" alt="img"></div>
+						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/circle3.jpg" alt="img"></div>
 				        <div class="info">
 				          <div class="info-back">
 				             <p>-View Classes-</p>
@@ -101,7 +101,7 @@ get_header(); ?>
 			  	<div class="col-sm-2">
 					 <div class="hidden-xs ih-item circle"><a href="<?php bloginfo('url'); ?>/classes/acrobatics">
 				        <div class="spinner"></div>
-						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/circle4.jpg" alt="img"></div>
+						  <div class="img"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/circle4.jpg" alt="img"></div>
 				        <div class="info">
 				          <div class="info-back">
 				            <p>-View Classes-</p>
@@ -120,7 +120,7 @@ get_header(); ?>
 		</div>
 		<div class="col-sm-4 latest-news">
 			<h4 class="latest-title">News &amp; Events</h4>
-			<?php get_template_part( 'part', 'latest_news' ); ?>
+			<?php get_template_part( 'parts/part', 'latest_news' ); ?>
 		</div><!--/.col-->
 	</div><!--/.intro-->
 </section><!--/.about-->

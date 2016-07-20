@@ -15,7 +15,7 @@ get_header(); ?>
 			<div class="class-list">
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'part', 'news' ); ?>
+				<?php get_template_part( 'parts/part', 'news' ); ?>
 
 			<?php endwhile; // end of the loop. ?>
 			</div><!--/.class-list-->

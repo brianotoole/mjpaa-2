@@ -685,7 +685,7 @@ Homepage
 	position: relative;
 	background-color: $lightgray;
 	/* bg set inside of homepage via custom field and added as inline style for css control */
-	//background: url('img/header-placeholder.png') center center no-repeat;
+	//background: url('assets/img/header-placeholder.png') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1495,7 +1495,7 @@ Interior Page Defaults
 /* interior page header */
 .entry-header {
 	position: relative;
-	background: url('img/hero_placeholder.jpg') 50% center no-repeat;
+	background: url('assets/img/hero_placeholder.jpg') 50% center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1933,7 +1933,7 @@ Interior Page Template: Classes / Class Search
 	width: 22%;
 	height: 22px;
 	margin-top: 4px;
-	background: url('img/ajax_loader.gif') no-repeat 50% 50%;
+	background: url('assets/img/ajax_loader.gif') no-repeat 50% 50%;
 }
 /* the find classes form id */
 #uwpqsf_id {
@@ -2009,7 +2009,7 @@ Footer
 .footer-contact {
 	padding: 50px 0 80px;
 	text-align: center;
-	background: url('img/studio-wood.jpg') no-repeat center center;
+	background: url('assets/img/studio-wood.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 	color: white;

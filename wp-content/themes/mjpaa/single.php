@@ -59,7 +59,7 @@ get_header(); ?>
 			<div class="col-sm-4 latest-news">
 				<?php if ( is_singular( 'post' ) && in_category( 'news' ) || in_category ( 'blog' ) ) :?>
 					<h4 class="latest-title">News &amp; Events</h4>
-					<?php get_template_part( 'part', 'latest_news' ); ?>
+					<?php get_template_part( 'parts/part', 'latest_news' ); ?>
 				<?php endif ; ?>
 				<?php get_sidebar(); ?>
 				<?php if ( is_singular( 'faculty' ) ) :  //if "faculty" post_type single ?>

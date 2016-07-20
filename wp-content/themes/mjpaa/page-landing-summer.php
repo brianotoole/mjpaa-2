@@ -12,8 +12,8 @@ Template Name: Landing, Summer
     <meta name="keywords" content="dance tampa, mjpaa summer, mjpaa summer 2016, mary jos summer registration, summer dance tampa, tampa dance classes summer, tampa fl dance lessons, performing arts tampa, tampa summer camps, summer dance camps, summer activities tampa, summer dance camps tampa, mary jos performing arts academy">
     <meta name="description" content="Summer 2016 dance classes, workshops, and camps in Tampa, FL at Mary Jos Performing Arts Academy. Register today.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory') ?>/img/favicon.ico">
+    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory') ?>/assets/img/favicon.ico">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/style-landing-summer.css">
 </head>
 <body>
@@ -21,7 +21,7 @@ Template Name: Landing, Summer
   <nav class="landing-nav">
     <div class="contain">
       <a href="<?php bloginfo('siteurl'); ?>" class="logo" rel="logo" title="MJPAA">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png">
       </a>
       <ul class="menu">
         <a href="https://app.jackrabbitclass.com/reg.asp?id=505581" target="_blank">New Student Registration</a>
@@ -104,21 +104,21 @@ Template Name: Landing, Summer
   <div class="contain center padded">
     <h3 class="title has-emblem">Summer Camps &amp; Workshops</h3>
       <div class="emblem">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/icon-courses.png">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icon-courses.png">
       </div>
       <p>Click a Camp/Workshop below to view registration information.</p><br />
       <div class="row classes-wrapper">
         <ul class="col-sm-3 col-xs-6 group one">
-	      <?php get_template_part( 'part', 'landing-summer-camps-group1' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-camps-group1' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group two">
-	      <?php get_template_part( 'part', 'landing-summer-camps-group2' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-camps-group2' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group three">
-	      <?php get_template_part( 'part', 'landing-summer-camps-group3' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-camps-group3' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group four">
-	      <?php get_template_part( 'part', 'landing-summer-camps-group4' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-camps-group4' ); ?>
         </ul>
       </div>
       <div clas="clearfix"></div>
@@ -130,13 +130,13 @@ Template Name: Landing, Summer
 <section class="landing-memories">
     <div class="images-wrapper">
 	  <div class="image">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/summer-left-2.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/summer-left-2.jpg">
 	  </div>
 	  <div class="image">
 	    <img src="http://mjpaa.com/wp-content/uploads/2015/08/memories3.jpg">
 	   </div>
 	   <div class="image">
-	     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/summer-hands.jpg">
+	     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/summer-hands.jpg">
 	   </div>
 
     </div><!--/.images-wrapper-->
@@ -146,21 +146,21 @@ Template Name: Landing, Summer
   <div class="contain center padded">
     <h3 class="title has-emblem">Summer Classes</h3>
       <div class="emblem">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/icon-courses.png">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icon-courses.png">
       </div>
       <p>Click a Class below to view registration information.</p><br />
       <div class="row classes-wrapper">
         <ul class="col-sm-3 col-xs-6 group one">
-	      <?php get_template_part( 'part', 'landing-summer-classes-group1' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-classes-group1' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group two">
-	      <?php get_template_part( 'part', 'landing-summer-classes-group2' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-classes-group2' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group three">
-	      <?php get_template_part( 'part', 'landing-summer-classes-group3' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-classes-group3' ); ?>
         </ul>
         <ul class="col-sm-3 col-xs-6 group four">
-	      <?php get_template_part( 'part', 'landing-summer-classes-group4' ); ?>
+	      <?php get_template_part( 'parts/part', 'landing-summer-classes-group4' ); ?>
         </ul>
       </div>    
       
@@ -180,7 +180,7 @@ Template Name: Landing, Summer
   <div class="contain center padded">
     <h3 class="title has-emblem">Ready to Discover the Difference this Summer?</h3>
       <div class="emblem">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/icon-courses.png">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icon-courses.png">
       </div>
     
     <div class="buttons">
