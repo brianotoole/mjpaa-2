@@ -4316,15 +4316,17 @@ img.alumni {
 	position: relative;
 	color: rgba($gold,0.75);
  }*/ }
-.class-single .grade:before {
-  content: '\f19d';
-  font-family: fontAwesome;
-  font-size: 0.75em;
-  vertical-align: text-top;
-  top: 1px;
-  padding-right: 5px;
-  position: relative;
-  color: rgba(174, 134, 72, 0.75); }
+.class-single .grade {
+  /* &:before {
+   	content: '\f19d';
+  	font-family: fontAwesome;
+  	font-size: 0.75em;
+  	vertical-align: text-top;
+  	top: 1px;
+  	padding-right: 5px;
+  	position: relative;
+  	color: rgba($gold,0.75);
+   }*/ }
 .class-single .session {
  /*&:before {
  	content: '\f017';
