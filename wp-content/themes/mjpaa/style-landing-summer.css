@@ -3259,15 +3259,9 @@ Menus
     font-size: 13px;
     text-align: center;
     border-bottom: 1px solid #dadada;
-    -webkit-transition: 0.2s ease-in-out;
-    -moz-transition: 0.2s ease-in-out;
-    -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out; }
     .main-navigation ul ul a:hover {
       background: #f1f1f1;
-      -webkit-transition: 0.2s ease-in-out;
-      -moz-transition: 0.2s ease-in-out;
-      -o-transition: 0.2s ease-in-out;
       transition: 0.2s ease-in-out; }
   .main-navigation ul ul ul {
     right: -999em;
@@ -3754,7 +3748,7 @@ body.page-template-page-um-video .site-header.fixed,
 body.page-template-page-fullwidth-largehero .site-header.fixed,
 body.page-template-page-testimonials .site-header.fixed {
   height: 85px;
-  background: rgba(93, 1, 1, 0.85);
+  background: #5D0101;
   border-bottom: 2px solid rgba(234, 234, 234, 0.05); }
 body.page-template-page-um-video .page-about section.history,
 body.page-template-page-fullwidth-largehero .page-about section.history,

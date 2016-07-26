@@ -538,15 +538,9 @@ Menus
 		font-size: 13px;
 		text-align: center;
 		border-bottom: 1px solid #dadada;
-		-webkit-transition: 0.2s ease-in-out;
-		-moz-transition: 0.2s ease-in-out;
-		-o-transition: 0.2s ease-in-out;
 		transition: 0.2s ease-in-out;
 		&:hover {
 			background: #f1f1f1;
-			-webkit-transition: 0.2s ease-in-out;
-			-moz-transition: 0.2s ease-in-out;
-			-o-transition: 0.2s ease-in-out;
 			transition: 0.2s ease-in-out;
 		}	
 	}
@@ -976,7 +970,7 @@ body.page-template-page-testimonials {
 	}
 	.site-header.fixed {
 		height: 85px;
-		background: rgba($maroon, 0.85);
+		background: $maroon;
 		border-bottom: 2px solid rgba($lightgray,0.05);
 	}
 	.page-about section.history {
