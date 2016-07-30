@@ -14,7 +14,8 @@
 	  <!-- Event & Performances Single Sidebar -->
 	  <?php if ( is_singular('post') && get_field('event_button_text') || is_singular('ai1ec_event') && get_field('event_button_text') ) :?>
 	    <a href="<?php the_field('event_registration_link'); ?>" class="button register" target="_blank"><li><?php the_field('event_button_text'); ?></li></a>
-	  <?php else: ?>
+	  <?php elseif ( is_singular('post') || is_singular('ai1ec_event') && !get_field('event_button_text') ) :?>
+	  
 	    <h4 class="latest-title">News &amp; Events</h4>
 	    <?php get_template_part( 'parts/part', 'latest_news' ); ?>
 	  <?php endif ; ?>
