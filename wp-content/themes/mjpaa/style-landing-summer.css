@@ -4195,7 +4195,8 @@ body.single-class .widget-title {
   .sidebar .button {
     font-size: 0.8em;
     display: block;
-    min-width: 100%; }
+    min-width: 100%;
+    padding: 10px; }
     .sidebar .button + .button {
       margin-top: 0; }
   .sidebar .widget-title {
