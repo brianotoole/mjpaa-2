@@ -24,8 +24,9 @@ get_header(); ?>
 		
 	<div id="secondary" class="classes-sidebar widget-area col-3-12 pull-left" role="complementary">
 		<h3 class="page-title">Find News</h3>
-		<p class="info">Select an option below to filter events.</p>
+		<p class="info">Select an option below to filter news/events.</p>
 		  <?php echo do_shortcode('[ULWPQSF id=88 formtitle="0" button=0]'); ?>
+		<a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Event Calendar</a>
 	</div><!-- .sidebar --> 
 
 	</div><!-- grid -->
