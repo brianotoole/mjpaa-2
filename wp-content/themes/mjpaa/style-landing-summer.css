@@ -4101,7 +4101,7 @@ About page template
   .page-about .team p.view:after {
     content: '\f101';
     position: absolute;
-    padding-top: 2px;
+    padding-top: 0;
     padding-left: 5px;
     font-family: fontAwesome;
     font-size: 1em;
@@ -4138,7 +4138,7 @@ Interior Page Defaults
   .entry-content p a,
   .entry-content a {
     text-decoration: underline;
-    color: maroon; }
+    color: #5D0101; }
 
 .testimonial hr,
 .alumni-images hr {
