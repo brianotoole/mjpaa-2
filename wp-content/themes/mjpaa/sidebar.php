@@ -15,9 +15,39 @@
 	  <?php if ( is_singular('post') && get_field('event_button_text') || is_singular('ai1ec_event') && get_field('event_button_text') ) :?>
 	    <a href="<?php the_field('event_registration_link'); ?>" class="button register" target="_blank"><li><?php the_field('event_button_text'); ?></li></a>
 	  <?php elseif ( is_singular('post') || is_singular('ai1ec_event') && !get_field('event_button_text') ) :?>
-	  
 	    <h4 class="latest-title">News &amp; Events</h4>
 	    <?php get_template_part( 'parts/part', 'latest_news' ); ?>
+	  <?php endif ; ?>
+	  
+	  <!-- Faculty Sidebar -->
+	  <?php if ( is_singular('faculty') ) :?>
+	    <h4 class="latest-title">Our Faculty</h4>
+			<?php
+						// WP_Query arguments for custom post type...
+						$args = array (
+							'post_type'	     => array( 'faculty' ),
+							'orderby' 		 => 'menu_order',
+							'order'			 => 'ASC',
+							'posts_per_page' => -1
+						);
+						// The Query
+						$loop = new WP_Query( $args );
+						
+						// The Loop
+						if ( $loop->have_posts() ) {
+							while ( $loop->have_posts() ) {
+								$loop->the_post(); ?>
+									<a href="<?php the_permalink() ?>">
+								    	<li class="default"><?php the_title(); ?></li>
+									</a>						
+						<?php } 
+						} else {
+							// no posts found
+						}
+						// Restore original Post Data
+						wp_reset_postdata();
+						
+						?>
 	  <?php endif ; ?>
 	  
 	  <!-- Class Single Sidebar -->

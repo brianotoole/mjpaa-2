@@ -62,35 +62,6 @@ get_header(); ?>
 					<?php get_template_part( 'parts/part', 'latest_news' ); ?>
 				<?php endif ; ?>
 				<?php get_sidebar(); ?>
-				<?php if ( is_singular( 'faculty' ) ) :  //if "faculty" post_type single ?>
-					<h4 class="latest-title">Our Faculty</h4>
-					<?php
-						// WP_Query arguments for custom post type...
-						$args = array (
-							'post_type'	     => array( 'faculty' ),
-							'orderby' 		 => 'menu_order',
-							'order'			 => 'ASC',
-							'posts_per_page' => -1
-						);
-						// The Query
-						$loop = new WP_Query( $args );
-						
-						// The Loop
-						if ( $loop->have_posts() ) {
-							while ( $loop->have_posts() ) {
-								$loop->the_post(); ?>
-									<a href="<?php the_permalink() ?>">
-								    	<li><?php the_title(); ?></li>
-									</a>						
-						<?php } 
-						} else {
-							// no posts found
-						}
-						// Restore original Post Data
-						wp_reset_postdata();
-						
-						?>
-				<? endif ; ?>
 			</div><!--/.col-->
 		</div><!--/.intro-->
 	</section><!--/.about-->	

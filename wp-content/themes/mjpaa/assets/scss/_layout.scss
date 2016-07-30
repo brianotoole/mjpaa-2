@@ -839,8 +839,31 @@ Homepage
 		text-align: center;
 		z-index: 100;
 		
+		a li, li a {
+			display: block;
+			margin: 15px 0 0;
+			padding: 0 0 15px;
+			color: $maroon;
+			font-weight: 400;
+			font-size: 1.1em;
+			font-style: normal;
+			list-style: none;
+			border-bottom: 2px solid #E0E0E0;
+			&.default { font-size: 0.9em;}
+			&.default::after { padding-top: 0;}
+		    &:after {
+			    content: '\f101';
+			    position: absolute;
+			    padding-top: 2px;
+			    padding-left: 10px;
+			    font-family: fontAwesome;
+			    font-size: 1em;
+			    color: $gold;
+			}
+		}
+		
 		p, 
-		a {
+		.view {
 		  font-family: $font-body;
 		}
 		
@@ -1548,8 +1571,9 @@ body.single-class .widget-title {
 	
 	li {
 		color: $maroon;
-		font-size: 1.1em;
+		//font-size: 1.1em;
 		list-style: none;
+		text-decoration: none;
 	}
 	
 	li a {
@@ -1634,27 +1658,7 @@ img.alumni {
         padding: 0;
     }
 }
-.latest-news {
-	a li, li a {
-		display: block;
-		margin: 15px 0 0;
-		padding: 0 0 15px;
-		color: $maroon;
-		font-weight: 400;
-		font-style: normal;
-		list-style: none;
-		border-bottom: 2px solid #E0E0E0;
-		&:after {
-		    content: '\f101';
-		    position: absolute;
-		    padding-top: 2px;
-		    padding-left: 10px;
-		    font-family: fontAwesome;
-		    font-size: 1em;
-		    color: $gold;
-		}
-	}
-}
+
 .class-single {
 	h5 {
 		margin: 20px 0;

@@ -3654,8 +3654,30 @@ Homepage
     border-bottom: none;
     text-align: center;
     z-index: 100; }
+    .about .latest-news a li, .about .latest-news li a {
+      display: block;
+      margin: 15px 0 0;
+      padding: 0 0 15px;
+      color: #5D0101;
+      font-weight: 400;
+      font-size: 1.1em;
+      font-style: normal;
+      list-style: none;
+      border-bottom: 2px solid #E0E0E0; }
+      .about .latest-news a li.default, .about .latest-news li a.default {
+        font-size: 0.9em; }
+      .about .latest-news a li.default::after, .about .latest-news li a.default::after {
+        padding-top: 0; }
+      .about .latest-news a li:after, .about .latest-news li a:after {
+        content: '\f101';
+        position: absolute;
+        padding-top: 2px;
+        padding-left: 10px;
+        font-family: fontAwesome;
+        font-size: 1em;
+        color: #AE8648; }
     .about .latest-news p,
-    .about .latest-news a {
+    .about .latest-news .view {
       font-family: "PT Sans", Helvetica, Arial; }
     .about .latest-news.sidebar-higher {
       margin: -140px 0 -40px 0;
@@ -4186,8 +4208,8 @@ body.single-class .widget-title {
     border-bottom: 2px solid #eaeaea; }
   .sidebar li {
     color: #5D0101;
-    font-size: 1.1em;
-    list-style: none; }
+    list-style: none;
+    text-decoration: none; }
   .sidebar li a {
     color: #5D0101;
     font-style: italic; }
@@ -4246,24 +4268,6 @@ img.alumni {
   .outer {
     min-height: auto;
     padding: 0; } }
-.latest-news a li, .latest-news li a {
-  display: block;
-  margin: 15px 0 0;
-  padding: 0 0 15px;
-  color: #5D0101;
-  font-weight: 400;
-  font-style: normal;
-  list-style: none;
-  border-bottom: 2px solid #E0E0E0; }
-  .latest-news a li:after, .latest-news li a:after {
-    content: '\f101';
-    position: absolute;
-    padding-top: 2px;
-    padding-left: 10px;
-    font-family: fontAwesome;
-    font-size: 1em;
-    color: #AE8648; }
-
 .class-single h5 {
   margin: 20px 0;
   padding: 10px 0;
