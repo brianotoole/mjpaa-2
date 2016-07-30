@@ -2651,6 +2651,21 @@ h6 {
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #1F1F1F;
+  font-weight: 400;
+  font-family: "PT Sans", Helvetica, Arial;
+  font-size: 16.25px;
+  line-height: 1.8; }
+
 h1,
 h2,
 h3,
@@ -2691,20 +2706,6 @@ p {
 /*--------------------------------------------------------------
 Elements
 --------------------------------------------------------------*/
-html {
-  -webkit-font-smoothing: antialiased; }
-
-body,
-button,
-input,
-select,
-textarea {
-  color: #1F1F1F;
-  font-weight: 400;
-  font-family: "PT Sans", Helvetica, Arial;
-  font-size: 16.25px;
-  line-height: 1.8; }
-
 textarea {
   height: 200px; }
 
@@ -3024,7 +3025,7 @@ Top-Bar, Header, & Navigation
         padding-right: 25px;
         vertical-align: middle;
         font-family: "PT Sans", Helvetica, Arial;
-        font-size: 0.9em;
+        font-size: 0.95em;
         font-weight: 400;
         color: #fbfbfb; }
         .top-bar .links ul li:last-child, .top-bar .links ul li a:last-child, .top-bar .links ul li a:visited:last-child {
@@ -3034,9 +3035,6 @@ Top-Bar, Header, & Navigation
           text-decoration: none; }
   .top-bar .push-up {
     transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
     transition: transform 0.3s; }
 
 body.home .site-header {
@@ -3217,7 +3215,7 @@ Menus
   display: block;
   float: left;
   width: 100%;
-  font-family: "PT Sans", Helvetica, Arial; }
+  font-family: "Titillium Web", serif, Arial; }
   .main-navigation ul {
     list-style: none;
     margin-top: 70px;

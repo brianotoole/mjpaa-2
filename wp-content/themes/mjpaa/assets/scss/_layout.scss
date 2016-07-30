@@ -1,6 +1,21 @@
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: $black;
+	font-weight: 400;
+	font-family: $font-body;
+	font-size: 16.25px;
+	line-height: 1.8;
+}
 h1,
 h2,
 h3,
@@ -24,20 +39,6 @@ p {
 /*--------------------------------------------------------------
 Elements
 --------------------------------------------------------------*/
-html {
-	-webkit-font-smoothing: antialiased;
-}
-body,
-button,
-input,
-select,
-textarea {
-	color: $black;
-	font-weight: 400;
-	font-family: $font-body;
-	font-size: 16.25px;
-	line-height: 1.8;
-}
 textarea { height: 200px;}
 a {
 	color: $black;
@@ -369,7 +370,7 @@ Top-Bar, Header, & Navigation
 				padding-right: 25px;
 				vertical-align: middle;
 				font-family: $font-body;
-				font-size: 0.9em;
+				font-size: 0.95em;
 				font-weight: 400;
 				color: $smoke;
 				&:last-child {
@@ -386,9 +387,6 @@ Top-Bar, Header, & Navigation
 	
 	.push-up {
 		transform: translateY(0px);
-		-webkit-transform: translateY(0px);
-		-moz-transform: translateY(0px);
-		-ms-transform: translateY(0px);
 		transition: transform 0.3s;
 	}
 	
@@ -470,6 +468,7 @@ body.home {
 .head-overflow {
 	overflow: visible;
 }
+//get search
 @import "search";
 
 
@@ -482,7 +481,7 @@ Menus
 	display: block;
 	float: left;
 	width: 100%;
-	font-family: $font-body;
+	font-family: $font-heading;
 	
 	ul {
 		list-style: none;
