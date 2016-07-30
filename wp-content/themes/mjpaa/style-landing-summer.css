@@ -3230,7 +3230,7 @@ Menus
       display: block;
       text-decoration: none;
       color: white;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 1.2em;
       transition: all 0.4s ease-in-out; }
       .main-navigation li a:hover, .main-navigation li a:focus {
@@ -3650,9 +3650,13 @@ Homepage
     padding: 40px 54px 72px;
     background: white;
     border: 1px solid #eaeaea;
+    font-family: "Titillium Web", serif, Arial;
     border-bottom: none;
     text-align: center;
     z-index: 100; }
+    .about .latest-news p,
+    .about .latest-news a {
+      font-family: "PT Sans", Helvetica, Arial; }
     .about .latest-news.sidebar-higher {
       margin: -140px 0 -40px 0;
       min-height: 1150px; }
@@ -3697,7 +3701,7 @@ Homepage
       	
       }*/ }
     .about .latest-news p.date {
-      font-weight: 600;
+      font-weight: 500;
       color: #555; }
     .about .latest-news .view {
       color: #5D0101;
@@ -4083,7 +4087,7 @@ About page template
   margin-bottom: 0;
   padding-top: 20px;
   color: #5D0101;
-  font-weight: 600; }
+  font-weight: 500; }
 .page-about .team p.title {
   line-height: 1.2em;
   padding-bottom: 7px; }
@@ -4182,7 +4186,7 @@ body.single-class .widget-title {
     border-bottom: 2px solid #eaeaea; }
   .sidebar li {
     color: #5D0101;
-    font-style: italic;
+    font-size: 1.1em;
     list-style: none; }
   .sidebar li a {
     color: #5D0101;
@@ -4219,7 +4223,7 @@ Interior Page Template: Faculty & Alumni single
   margin-bottom: 0;
   padding-top: 20px;
   color: #5D0101;
-  font-weight: 600; }
+  font-weight: 500; }
 
 img.faculty,
 img.alumni {
@@ -4244,8 +4248,8 @@ img.alumni {
     padding: 0; } }
 .latest-news a li, .latest-news li a {
   display: block;
-  margin: 10px 0 0;
-  padding: 0 0 10px;
+  margin: 15px 0 0;
+  padding: 0 0 15px;
   color: #5D0101;
   font-weight: 400;
   font-style: normal;
@@ -4372,7 +4376,7 @@ Interior Page Template: Classes / Class Search
     .classes-sidebar li:last-of-type, .classes-sidebar li a:last-of-type {
       border-bottom: none; }
   .classes-sidebar .current_page_item {
-    font-weight: 600; }
+    font-weight: 500; }
   .classes-sidebar p.info {
     font-size: 0.85em;
     margin-bottom: 2px; }
@@ -4413,7 +4417,7 @@ Interior Page Template: Classes / Class Search
     padding-bottom: 0;
     margin-bottom: 0; }
   .class-list .date {
-    font-weight: 600; }
+    font-weight: 500; }
   .class-list .date, .class-list p {
     padding: 2.5px 0; }
 
@@ -4424,7 +4428,7 @@ Interior Page Template: Classes / Class Search
   .results-total .button {
     margin: 30px 20px 5px; }
   .results-total h5 {
-    font-weight: 600; }
+    font-weight: 500; }
   .results-total span {
     text-transform: uppercase; }
   .results-total form {
