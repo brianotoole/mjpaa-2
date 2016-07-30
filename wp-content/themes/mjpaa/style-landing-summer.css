@@ -2748,6 +2748,7 @@ input[type="submit"] {
   -webkit-appearance: button;
   font-size: 1.1em;
   line-height: 1;
+  font-family: "PT Sans", Helvetica, Arial;
   font-weight: inherit;
   margin: 20px 0;
   padding: 12px 25px;
@@ -4192,7 +4193,9 @@ body.single-class .widget-title {
   width: 100%;
   margin: 0; }
   .sidebar .button {
-    font-size: 0.85em; }
+    font-size: 0.8em;
+    display: block;
+    min-width: 100%; }
     .sidebar .button + .button {
       margin-top: 0; }
   .sidebar .widget-title {
