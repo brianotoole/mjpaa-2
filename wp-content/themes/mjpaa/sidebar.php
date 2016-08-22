@@ -136,7 +136,7 @@
 			</h6>
 			
 		<h5 class="cost">Cost</h5>
-	  	 <h6><i class="fa fa-usd"></i><?php the_field('class_cost'); ?></h6>
+	  	 <h6>$<?php the_field('class_cost'); ?></h6>
 	  	 
 	       <a class="hidden-xs button primary" href="<?php bloginfo('url'); ?>/about/#faculty">Our Faculty</a>
 	       <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/about/#faculty">Our Faculty</a>

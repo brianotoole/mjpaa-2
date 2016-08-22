@@ -45,7 +45,7 @@ $query = new WP_Query($args);
 <?php 
   $count_posts = wp_count_posts(); 
   $published_posts = $count_posts->publish;
-    if( $published_posts >= 3 ) { //if there are 3 or more published posts, show view more link
+    if( $published_posts >= 4 ) { //if there are 4 or more published posts, show view more link
         echo '<div class="col-sm-12 text-center no-padding">';
         echo '<a href="' . get_option('home') . '/events" class="hidden-xs view more">' . 'View More News &amp; Events' . '</a>';
         echo '<a href="' . get_option('home') . '/events" class="visible-xs button mobile">' . 'View More News &amp; Events' . '</a>';
