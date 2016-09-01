@@ -5744,63 +5744,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/all-in-one-event-calendar-csv-feed.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/all-in-one-event-calendar-csv-feed.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/app\/controller\/ai1eccf.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/app\/controller\/ai1eccf.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/lib\/bootstrap\/loader-map.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/lib\/bootstrap\/loader-map.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/lib\/calendar-feeds\/csv.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/lib\/calendar-feeds\/csv.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/all-in-one-event-calendar-csv-feed\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/wp-content\/plugins\/all-in-one-event-calendar\/all-in-one-event-calendar.php": {
 		"fileType": 8192,
 		"ignore": 0,
