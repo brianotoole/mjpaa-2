@@ -148,9 +148,6 @@
 			width: 0;
 			background-color: transparent;
 			transition: width 0.4s ease, background-color 0.4s ease;
-			-webkit-transition: width 0.4s ease, background-color 0.4s ease;
-			-moz-transition: width 0.4s ease, background-color 0.4s ease;
-			-ms-transition: width 0.4s ease, background-color 0.4s ease;
 		}
 		&:hover,&:focus {
 			text-decoration: none;
@@ -257,6 +254,8 @@ h6 { font-size: 16px; line-height: 20px; }
 		&:hover, &:focus {
 			color: white;
 			border: 0;
+			background: transparent;
+			outline: 0;
 		}
 	}
 	.close {
