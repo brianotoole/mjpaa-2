@@ -7,18 +7,9 @@
 
 $args = array (
   'post_type' => 'post',
-    'tax_query' => array(
-        'relation' => 'AND',
-        array(
-            'taxonomy' => 'category',
-            'field' => 'slug',
-            'terms' => array( 'event', 'news'),
-            'operator' => 'IN'
-        ),
   'order'		   => 'DESC',
   'posts_per_page' => 4, 
   'post_status' => 'publish'
-  )
 );
 
 $query = new WP_Query($args); 
