@@ -7,6 +7,7 @@ $gray: #555;
 $hr: #eaeaea;
 $black: #212121;
 $gold: #AE8648;
+$white: #fff;
 
 // Typography
 @import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|100,300,400,500,600,700');
@@ -22,6 +23,7 @@ $font-body: 'PT Sans', Helvetica, Arial;
 
 // Layout
 @import "wp";
+@import "base";
 @import "layout";
 @import "plugin-ai1ec";
 @import "responsive";
