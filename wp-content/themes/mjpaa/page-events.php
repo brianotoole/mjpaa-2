@@ -1,6 +1,6 @@
 <?php
 /**
-Template Name: Page - News
+Template Name: Page - Events
  */
 get_header(); ?> 
 
@@ -9,13 +9,13 @@ get_header(); ?>
 			<main id="main" class="site-main entry-content" role="main">
 
 			<div class="results-total">
-				<h3>Recent News</h3>
+				<h3>Upcoming Events</h3>
 			</div>
 
 			<div class="class-list">
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'parts/part', 'news' ); ?>
+				<?php get_template_part( 'parts/part', 'events' ); ?>
 
 			<?php endwhile; // end of the loop. ?>
 			</div><!--/.class-list-->
@@ -23,10 +23,9 @@ get_header(); ?>
 		</div><!-- #primary -->
 		
 	<div id="secondary" class="classes-sidebar widget-area col-3-12 pull-left" role="complementary">
-		<h3 class="page-title">Filter News</h3>
-		<p class="info">Select an option below to filter news/blogs.</p>
-		  <?php echo do_shortcode('[ULWPQSF id=88 formtitle="0" button=0]'); ?>
-		<!--<a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Calendar</a>-->
+		<h3 class="page-title">Find Events</h3>
+		<p class="info">To view all events, visit our calendar.</p>
+		  <a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Calendar</a>
 	</div><!-- .sidebar --> 
 
 	</div><!-- grid -->
