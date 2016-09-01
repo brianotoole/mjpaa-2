@@ -765,7 +765,7 @@ body.home .latest-news p {
 		
 		p {
 			text-transform: uppercase;
-			font-weight: 700;
+			font-weight: 600;
 		}
 		a {
 			display: block;
@@ -793,7 +793,7 @@ body.home .latest-news p {
 		min-height: 200px;
 	}
 	.breakout {
-		font-weight: 700;
+		font-weight: 600;
 		color: $black;
 	}
 	
@@ -1190,6 +1190,10 @@ Interior Page Defaults
 	a {
 		text-decoration: underline;
 		color: $maroon;
+		&:hover {
+			text-decoration: underline;
+			color: darken($maroon,5%);
+		}
 	}
 }
 
@@ -1633,6 +1637,7 @@ Interior Page Template: Classes / Class Search
 }
 .uwpqsf_class select {
 	width: 100%;
+	height: auto;
 	background: white;
 	border: none;
 }
@@ -1755,7 +1760,7 @@ Footer
 	.footer-top {
 		text-transform: uppercase;
 		h6 {
-			font-weight: 700;
+			font-weight: 600;
 		}
 		p {
 			color: #717171;

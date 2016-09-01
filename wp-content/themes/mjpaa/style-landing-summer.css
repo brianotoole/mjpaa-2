@@ -3508,7 +3508,7 @@ body.home .latest-news p {
     margin: 5px 0; }
     .history .visit p {
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 600; }
     .history .visit a {
       display: block;
       margin: 0 0 5px;
@@ -3530,7 +3530,7 @@ body.home .latest-news p {
     padding-left: 40px;
     min-height: 200px; }
   .history .breakout {
-    font-weight: 700;
+    font-weight: 600;
     color: #1F1F1F; }
 
 .memories {
@@ -3823,6 +3823,10 @@ Interior Page Defaults
   .entry-content a {
     text-decoration: underline;
     color: #5D0101; }
+    .entry-content p a:hover,
+    .entry-content a:hover {
+      text-decoration: underline;
+      color: #440101; }
 
 .testimonial hr,
 .alumni-images hr {
@@ -4256,6 +4260,7 @@ span.upagicurrent {
 
 .uwpqsf_class select {
   width: 100%;
+  height: auto;
   background: white;
   border: none; }
 
@@ -4350,7 +4355,7 @@ Footer
   .site-footer .footer-top {
     text-transform: uppercase; }
     .site-footer .footer-top h6 {
-      font-weight: 700; }
+      font-weight: 600; }
     .site-footer .footer-top p {
       color: #717171;
       font-size: 0.8em; }

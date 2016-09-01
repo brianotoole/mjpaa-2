@@ -3,6 +3,7 @@
 $args = array( 
   'post_type' => 'testimonial', 
   'posts_per_page' => 1,
+  'order' => 'DESC',  
   'orderby' => 'rand'
 );
 

@@ -82,7 +82,7 @@ get_header(); ?>
 		<div class="col-sm-12">
 			<h3>Want to provide your feedback?</h3>
 			<p>If you have a comment to provide to us, please email us using the button below.</p> 
-			<a class="button gold" href="mailto:kscanio@mjpaa.com">Send Feedback</a>
+			<a class="button gold" href="<?php bloginfo('url'); ?>/contact">Send Feedback</a>
 		</div>
 	</div><!-- grid -->
 </div><!-- footer-contact -->

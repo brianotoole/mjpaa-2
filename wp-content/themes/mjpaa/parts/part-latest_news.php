@@ -8,8 +8,8 @@
 $args = array (
   'post_type' => 'post',
   'order'		   => 'DESC',
-  'posts_per_page' => 4, 
-  'post_status' => 'publish'
+  'posts_per_page' => 4
+  //'post_status' => 'publish'
 );
 
 $query = new WP_Query($args); 

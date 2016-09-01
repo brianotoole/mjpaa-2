@@ -26,7 +26,7 @@ get_header(); ?>
 		<h3 class="page-title">Find News</h3>
 		<p class="info">Select an option below to filter news/events.</p>
 		  <?php echo do_shortcode('[ULWPQSF id=88 formtitle="0" button=0]'); ?>
-		<a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Event Calendar</a>
+		<a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Calendar</a>
 	</div><!-- .sidebar --> 
 
 	</div><!-- grid -->
