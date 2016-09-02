@@ -28,8 +28,7 @@ get_header(); ?>
 			<div class="mobile-pad">
 			  <h4 class="visible-xs latest-title text-center">How can we help you?</h4> 
 			  <div class="service visbile-xs hidden-sm hidden-md hidden-lg">
-			    <a class="button mobile" href="<?php bloginfo('url'); ?>/about/#">What is MJPAA?</a>
-			    <a class="button mobile" href="<?php bloginfo('url'); ?>/summer">Summer 2016 Registration</a>
+			    <a class="button mobile" href="<?php bloginfo('url'); ?>/about/#">About MJPAA</a>
 			    <a class="button mobile" href="<?php bloginfo('url'); ?>/general-info">I need general information</a>
 			    <a class="button mobile" href="<?php bloginfo('url'); ?>/classes">I need class information</a>
 			    <a class="button mobile" href="<?php bloginfo('url'); ?>/contact">I need contact information</a>
@@ -129,19 +128,19 @@ get_header(); ?>
 	<div class="intro row" id="contain">
 		<div class="col-sm-3 visit">
 			<p class="hidden-xs">Visit</p>
-			<p class="visible-xs">Recent News</p>
-			  <a class="hidden-xs" href="<?php bloginfo('url'); ?>/events">Recent News</a>
-			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/events">View</a>
+			<p class="visible-xs">Calendar</p>
+			  <a class="hidden-xs" href="<?php bloginfo('url'); ?>/calendar">Our Calendar</a>
+			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/calendar">View</a>
 
 			<p class="hidden-xs">Visit</p>
-			<p class="visible-xs">Performances</p>
-			  <a class="hidden-xs" href="<?php bloginfo('url'); ?>/events">Performances</a>
-			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/events">View</a>
+			<p class="visible-xs">Classes</p>
+			  <a class="hidden-xs" href="<?php bloginfo('url'); ?>/classes">Our Classes</a>
+			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/classes">View</a>
 			  
 			<p class="hidden-xs">Visit</p>
 			<p class="visible-xs">Birthday Parties</p>
 			  <a class="hidden-xs no-border" href="<?php bloginfo('url'); ?>/general-info/birthday-parties">Birthday Parties</a>
-			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/birthday-parties">View</a>
+			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/general-info/birthday-parties">View</a>
 		</div><!--/.col-->
 		<div class="col-sm-9 quotes b-left">
 			<h3>Celebrating 35 Years as the Most Reputable<br />

@@ -64,9 +64,9 @@
 				echo '<h3 class="class-title">'.$event_title.'</h3>';
 				echo '<p class="date">'.$event_date.' </p>';
 				echo '<p>'.get_excerpt_by_id($postid).'</p>';
-				echo '</div>';
-				echo '<a <a href="'.get_permalink($postid).'">';
 				echo '</a>';
+				echo '<p class="view"><a href="'.get_permalink($postid).'">View Event</a></p>';
+				echo '</div>';
 				echo '<div class="clear"></div>';
 				echo '<hr>';
 			}

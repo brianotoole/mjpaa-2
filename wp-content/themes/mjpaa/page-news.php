@@ -23,7 +23,7 @@ get_header(); ?>
 		</div><!-- #primary -->
 		
 	<div id="secondary" class="classes-sidebar widget-area col-3-12 pull-left" role="complementary">
-		<h3 class="page-title">Filter News</h3>
+		<h3 class="page-title">Find News</h3>
 		<p class="info">Select an option below to filter news/blogs.</p>
 		  <?php echo do_shortcode('[ULWPQSF id=88 formtitle="0" button=0]'); ?>
 		<!--<a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Calendar</a>-->
