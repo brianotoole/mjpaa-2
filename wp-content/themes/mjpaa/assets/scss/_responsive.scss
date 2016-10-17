@@ -24,6 +24,13 @@
 	}
 }//end
 
+@media screen and (max-width: 1295px) {
+  .main-navigation {
+    li { padding: 5px 10px; }
+  }
+}
+
+
 @media screen and (max-width: 1275px) {
 	.site-logo {
 		img {
@@ -76,8 +83,16 @@
 		}
 	}
 	.site-header.fixed  {
+		.main-navigation {
+			li {
+				padding: 0 8px;
+			}
+			a {
+				font-size: 0.95em;
+			}
+		}
 		.main-navigation ul li a {
-			font-size: 0.9em;
+			font-size: 0.8em;
 		}
 		.site-logo img {
 			max-width: 100%;
@@ -95,11 +110,11 @@
 /* tab */
 @media screen and (max-width: 1024px) {
 	button, .button, input[type="button"], input[type="reset"], input[type="submit"] { 
-		font-size: 0.9em;
+		font-size: 0.85em;
 	}
 	.main-navigation {
 		li {
-			padding: 0 12px;
+			padding: 0 8px;
 		}
 	}
 	.site-logo img {
@@ -130,6 +145,14 @@
 		padding-right: 5px;
 	}
 }//end
+
+@media screen and (max-width: 980px) {
+  .main-navigation {
+    li { padding: 0 7px; }
+    a { font-size: 0.99em; }
+  }
+}
+
 
 @media screen and (min-width: 900px) and (max-width: 1170px) { 
 	.intro {max-width: 98%;}

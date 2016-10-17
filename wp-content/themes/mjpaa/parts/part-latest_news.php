@@ -20,8 +20,8 @@ $query = new WP_Query($args);
 <div class="col-sm-12 descrip">
   <h5 class="news-title"><?php the_title(); ?></h5>
     <p class="date"></p>  
-	  <a class="hidden-xs view" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><span class="cat-title">Read <?php global $post; $category = get_the_category($post->ID); echo $category[0]->name; ?> Article</span></a>
-	  <a class="visible-xs button mobile" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><span class="cat-title">Read <?php global $post; $category = get_the_category($post->ID); echo $category[0]->name; ?> Article</span></a>
+	  <a class="hidden-xs view" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><span class="cat-title">Read More</span></a>
+	  <a class="visible-xs button mobile" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><span class="cat-title">Read More</span></a>
 </div>
 <div class="clear"></div>
 

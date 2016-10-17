@@ -75,7 +75,7 @@
 		echo '</div>';
 		echo '<a href="'.get_bloginfo('url').'/calendar" class="button transparent border pull-right">View More Events</a>';
 	} else {
-		echo '</p>There are no upcoming events at this time.</p>';
+		echo '<p>There are no upcoming events at this time.</p>';
 	}
 
 ?>

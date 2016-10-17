@@ -43,7 +43,7 @@ if(!empty($events_result)) {
 				
 				    if(count($words) > $excerpt_length) :
 				        array_pop($words);
-				        array_push($words, '… View More');
+				        array_push($words, '… View Event');
 				        $the_excerpt = implode(' ', $words);
 				    endif;
 				    return $the_excerpt;
@@ -57,8 +57,8 @@ if(!empty($events_result)) {
 				//echo '<p class="date"><span class="cat-title">Event</span></p>';
 				//echo '<p>'.get_excerpt_by_id($postid).'</p>';
 				echo '<p class="date"></p>';
-				echo '<a class="hidden-xs view" href="'.get_permalink($postid).'"><span class="cat-title">View Event Details</span></a>';
-				echo '<a class="visible-xs button mobile" href="'.get_permalink($postid).'"><span class="cat-title">View Event Details</span></a></a>';
+				echo '<a class="hidden-xs view" href="'.get_permalink($postid).'"><span class="cat-title">View Event</span></a>';
+				echo '<a class="visible-xs button mobile" href="'.get_permalink($postid).'"><span class="cat-title">View Event</span></a></a>';
 				echo '</div>';
 				echo '<div class="clear"></div>';
 			}

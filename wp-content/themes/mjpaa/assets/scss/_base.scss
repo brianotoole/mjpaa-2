@@ -439,6 +439,13 @@ textarea {
 	}
 }
 
+.button.cal {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  z-index: 1;
+}
+
 hr {
     border: 0;
     height: 1px;

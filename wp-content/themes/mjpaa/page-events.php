@@ -9,7 +9,7 @@ get_header(); ?>
 			<main id="main" class="site-main entry-content" role="main">
 
 			<div class="results-total">
-				<h3>Upcoming Events</h3>
+				<h3>Upcoming Events &amp; Important Announcements</h3>
 			</div>
 
 			<div class="class-list">
@@ -25,7 +25,7 @@ get_header(); ?>
 	<div id="secondary" class="classes-sidebar widget-area col-3-12 pull-left" role="complementary">
 		<h3 class="page-title">Find Events</h3>
 		<p class="info">To view all events, visit our calendar.</p>
-		  <a href="<?= bloginfo('url'); ?>/calendar" class="button primary">View Calendar</a>
+		  <a href="<?= bloginfo('url'); ?>/calendar" class="button primary cal">View Calendar</a>
 	</div><!-- .sidebar --> 
 
 	</div><!-- grid -->

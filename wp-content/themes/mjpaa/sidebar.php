@@ -18,37 +18,7 @@
 	    <h4 class="latest-title">News &amp; Events</h4>
 	    <?php get_template_part( 'parts/part', 'latest_news' ); ?>
 	  <?php endif ; ?>
-	  
-	  <!-- Faculty Sidebar -->
-	  <?php if ( is_singular('faculty') ) :?>
-	    <h4 class="latest-title">Our Faculty</h4>
-			<?php
-						// WP_Query arguments for custom post type...
-						$args = array (
-							'post_type'	     => array( 'faculty' ),
-							'orderby' 		 => 'menu_order',
-							'order'			 => 'ASC',
-							'posts_per_page' => -1
-						);
-						// The Query
-						$loop = new WP_Query( $args );
-						
-						// The Loop
-						if ( $loop->have_posts() ) {
-							while ( $loop->have_posts() ) {
-								$loop->the_post(); ?>
-									<a href="<?php the_permalink() ?>">
-								    	<li class="default"><?php the_title(); ?></li>
-									</a>						
-						<?php } 
-						} else {
-							// no posts found
-						}
-						// Restore original Post Data
-						wp_reset_postdata();
-						
-						?>
-	  <?php endif ; ?>
+	 
 	  
 	  <!-- Class Single Sidebar -->
 	  <?php if ( is_singular( 'class' ) && get_field('class_registration_link') ): //registration link ?>

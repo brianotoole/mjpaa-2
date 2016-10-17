@@ -143,11 +143,11 @@ get_header(); ?>
 			  <a class="visible-xs button mobile" href="<?php bloginfo('url'); ?>/general-info/birthday-parties">View</a>
 		</div><!--/.col-->
 		<div class="col-sm-9 quotes b-left">
-			<h3>Celebrating 35 Years as the Most Reputable<br />
+			<h3>Celebrating 36 Years as the Most Reputable<br />
 			Performing Arts Academy in Tampa Bay
 			</h3> 
 			<h5 class="breakout">Voted one of the top 50 dance schools in the country.</h5>
-			<p>Currently one of the Federation of Dance Competition's Top 25 schools in the Southeast Region, FDC People's Choice Award Winner, power ranked with the World Dance Championship Series, Victory Cup Winner and FDC Studio of Excellence.</p>
+			<p>Currently one of the Federation of Dance Competition's Top 25 schools in the Southeast Region, FDC People's Choice Award Winner, power ranked with the World Dance Championship Series, Victory Cup Winner and FDC Studio of Excellence. <a href="<?php bloginfo('url'); ?>/about/testimonials" class="underline">Read more about our testimonials and awards</a>.</p>
 		</div><!--/.col-->
 	</div><!--/.intro-->
 </section><!--/.history-->

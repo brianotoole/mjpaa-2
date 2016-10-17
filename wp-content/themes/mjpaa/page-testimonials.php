@@ -10,7 +10,7 @@ get_header(); ?>
        <?php if( get_field('interior_callout') ): ?> 
 		<p><?php the_field('interior_callout'); ?></p>
 		<?php endif ; ?>
-       <a href="#" class="button transparent" id="learn">Click to Read Testimonials</a>
+       <a href="#" class="button transparent" id="learn">View Testimonials</a>
   </article>
 </div>
 <div class="cover-bottom">
