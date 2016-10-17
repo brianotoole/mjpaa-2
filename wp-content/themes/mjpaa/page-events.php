@@ -13,11 +13,15 @@ get_header(); ?>
 			</div>
 
 			<div class="class-list">
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php 
+			  while ( have_posts() ) : the_post(); 
+			    
+			    // use widget for upcoming events - Unable to order events marked as 'all day'in AE1EC :(
+			    echo do_shortcode('[ai1ec events_limit="40" view="agenda"]');
+				//get_template_part( 'parts/part', 'events' );
 
-				<?php get_template_part( 'parts/part', 'events' ); ?>
-
-			<?php endwhile; // end of the loop. ?>
+			  endwhile; // end of the loop. 
+			?>
 			</div><!--/.class-list-->
 			</main><!-- #main -->
 		</div><!-- #primary -->
