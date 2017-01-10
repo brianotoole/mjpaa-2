@@ -24,6 +24,9 @@ get_header(); ?>
 					<main id="main" class="site-main" role="main">
 					  <div class="entry-content">
 					    <?php the_content(); ?> 
+					    <?php if ( get_field('event_registration_link') ) :?>
+			             <?php the_field('event_description_extra'); ?>
+	                    <?php endif ; ?>
 					  </div>
 					</main><!-- #main -->
 				</div><!-- #primary -->
