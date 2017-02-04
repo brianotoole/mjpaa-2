@@ -4,6 +4,7 @@
 $args = array (
 	'post_type'	     => array( 'post' ),
 	'order'			 => 'DESC',
+	'category__not_in' => '197', // all but event-featured
 	'posts_per_page' => -1
 );
 // The Query
